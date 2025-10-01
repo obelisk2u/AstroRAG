@@ -1,2 +1,6 @@
 data/ 
 notes.txt
+.venv/
+slurm/*.out
+slurm/*.err
+

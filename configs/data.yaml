@@ -1,0 +1,21 @@
+categories:
+  - astro-ph.CO
+  - astro-ph.GA
+  - astro-ph.EP
+  - astro-ph.HE
+  - astro-ph.IM
+  - astro-ph.SR
+  - gr-qc
+  - physics.comp-ph
+  - physics.space-ph
+
+per_category_max: 15000
+out_jsonl: "data/raw/arxiv_astro.jsonl"
+
+page_size: 100
+delay_seconds: 4
+timeout_seconds: 30
+max_empty_skips: 10
+
+debug: false
+debug_per_category_max: 500

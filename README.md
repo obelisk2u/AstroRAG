@@ -1,6 +1,6 @@
 # AstroReRank: Transformer Reranking for Astrophysics Literature Search
 
-AstroReRank is a retrieval pipeline for astrophysics papers that demonstrates how **transformer bi-encoders** (for fast retrieval) and **cross-encoders** (for precise reranking) can improve scientific literature search.  
+AstroRAG is a retrieval pipeline for astrophysics papers that demonstrates how **transformer bi-encoders** (for fast retrieval) and **cross-encoders** (for precise reranking) can improve scientific literature search.  
 The project is designed to be fully reproducible on the BU SCC cluster, and lightweight enough (~3 GB total) to run locally for demos.
 
 ---
@@ -25,7 +25,6 @@ astro-rerank/
 ├─ scripts/          # Python scripts for each step
 ├─ outputs/          # (gitignored) trained model checkpoints
 ├─ slurm/            # SCC batch scripts
-├─ env.yaml          # Conda environment
 ├─ Makefile          # Workflow commands
 └─ README.md
 ```
@@ -35,8 +34,9 @@ astro-rerank/
 ## Environment Setup
 
 ```bash
-conda env create -f env.yaml
-conda activate astro-rerank
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
 ```
 
 ---

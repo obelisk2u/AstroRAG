@@ -1,4 +1,4 @@
-# AstroReRank: Transformer Reranking for Astrophysics Literature Search
+# AstroRAG: Transformer Reranking for Astrophysics Literature Search
 
 AstroRAG is a retrieval pipeline for astrophysics papers that demonstrates how **transformer bi-encoders** (for fast retrieval) and **cross-encoders** (for precise reranking) can improve scientific literature search.  
 The project is designed to be fully reproducible on the BU SCC cluster, and lightweight enough (~3 GB total) to run locally for demos.
@@ -19,7 +19,7 @@ The project is designed to be fully reproducible on the BU SCC cluster, and ligh
 ## Repo Structure
 
 ```
-astro-rerank/
+AstroRAG/
 ├─ configs/          # YAML configs
 ├─ data/             # (gitignored) raw + processed data
 ├─ scripts/          # Python scripts for each step

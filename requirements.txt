@@ -1,5 +1,10 @@
 --extra-index-url https://download.pytorch.org/whl/cu121
 
+numpy<2
+torch==2.*            # matches your CUDA 12.1 module
+sentence-transformers
+faiss-gpu-cu12==1.8.0 # or faiss-cpu==1.8.0 if you don't need GPU FAISS
+
 arxiv
 feedparser
 requests
@@ -7,6 +12,4 @@ tqdm
 pyyaml
 orjson
 ujson
-sentence-transformers 
-faiss-gpu-cu12
-numpy
+

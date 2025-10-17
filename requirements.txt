@@ -1,15 +1,17 @@
---extra-index-url https://download.pytorch.org/whl/cu121
-
-numpy<2
-torch==2.*            # matches your CUDA 12.1 module
-sentence-transformers
-faiss-gpu-cu12==1.8.0 # or faiss-cpu==1.8.0 if you don't need GPU FAISS
-
-arxiv
-feedparser
-requests
-tqdm
-pyyaml
-orjson
-ujson
-
+numpy>=1.21
+pandas>=2.0
+tqdm>=4.65
+pyyaml>=6.0
+torch>=1.13
+transformers>=4.30
+sentence-transformers>=3.0
+faiss-cpu>=1.7.4
+scikit-learn>=1.2
+rank-bm25>=0.2.2
+ir-measures>=0.3.3
+trectools>=0.0.49
+ujson>=5.8.0
+notebook>=7.0
+matplotlib>=3.7
+seaborn>=0.13
+huggingface-hub>=0.21

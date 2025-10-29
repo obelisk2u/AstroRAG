@@ -1,0 +1,10 @@
+jupyterlab
+ipywidgets
+pandas
+numpy
+tqdm
+faiss-cpu
+torch
+sentence-transformers
+transformers
+accelerate
